@@ -1,0 +1,45 @@
+/* Common Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* End of Common Styles */
+
+/* Section 1 */
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-heading {
+    font-size: 12rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    text-shadow: 0.3rem 0.3rem 0.3rem #000000;
+}
+
+.section-1-icons {
+    font-size: 35rem;
+    color: #a79a2d;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+}
+
+/* End of Section 1 */
