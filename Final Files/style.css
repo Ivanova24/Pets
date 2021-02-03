@@ -443,12 +443,13 @@ html {
 
   .section-2 {
     height: auto;
+    padding: 10rem 0 12rem 0; 
   }
 
   .cards-container {
     margin-top: 10rem;
   }
-
+  
   .gallery-link {
     width: 40rem;
     height: 25rem;
@@ -458,7 +459,7 @@ html {
   .food-img {
     width: 100%;
     height: 100%;
-  }
+  } 
 }
 
 @media (max-width: 1000px) {
@@ -496,7 +497,7 @@ html {
   .navbar-link span {
     font-size: 2rem;
   }
-}
+} 
 
 @media (max-width: 700px) {
   .section-heading {
@@ -532,5 +533,5 @@ html {
   .navbar-link {
     margin: 0 0.7rem;
   }
-}
+} 
 /* End of Responsive */
